@@ -1,12 +1,14 @@
 ## MuseTalk Superresolution Enhancement
 # Overview
-This repository is an enhanced version of the MuseTalk project, designed to improve the resolution of the lipsynced region in the generated videos. The enhancement is achieved by integrating two state-of-the-art superresolution models: GFPGAN and CodeFormer.
+This repository is an enhanced version of the MuseTalk project, designed to improve the resolution of the lipsynced region in the generated videos.
+The enhancement is achieved by integrating two state-of-the-art superresolution models: 
+GFPGAN and CodeFormer.
 
-Key Features
+# Key Features
 Superresolution
 Boosts the resolution of the lipsynced region while preserving the quality of the original frame.
 Supports GFPGAN and CodeFormer for superresolution.
-Customizable
+# Customizable
 Users can select their preferred superresolution model using the --superres argument.
 Ease of Use
 Simple command-line interface for processing videos.
