@@ -42,28 +42,34 @@ pip install basicsr facexlib realesrgan
 # Install CodeFormer dependencies
 pip install -r CodeFormer/requirements.txt
 Step 3: Download Pre-trained Models
-GFPGAN Model
+# GFPGAN Model
 Download the GFPGAN pre-trained model from here.
-Place the downloaded model in the GFPGAN/experiments/pretrained_models/ directory.
-CodeFormer Model
+Place the downloaded model in the 
+GFPGAN/experiments/pretrained_models/ directory.
+# CodeFormer Model
 Download the CodeFormer pre-trained model from here.
 Place the downloaded model in the CodeFormer/weights/ directory.
+
 Step 4: Prepare a Test Video
-Prepare a 3-second test video with a visible face for testing. Ensure the video file is in the same directory or specify its absolute path in commands.
+Prepare a 3-second test video with a visible face for testing. 
+Ensure the video file is in the same directory or specify its absolute path in commands.
 
 # Usage Instructions
 Run the script x.py using the following command:
 
 bash
 python x.py --superres [GFPGAN/CodeFormer] -iv input_video.mp4 -ia input_audio.mp3 -o output_video.mp4
+
 Arguments
 --superres: Choose the superresolution method (GFPGAN or CodeFormer).
 -iv: Path to the input video.
 -ia: Path to the input audio.
 -o: Path to the output video.
 Example Command
+
 bash
 python x.py --superres GFPGAN -iv input.mp4 -ia input.mp3 -o output.mp4
+
 # Project Workflow
 Load Video and Audio:
 
