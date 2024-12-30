@@ -324,3 +324,5 @@ If you need higher resolution, you could apply super resolution models such as [
 1. `other opensource model`: Other open-source models used must comply with their license, such as `whisper`, `ft-mse-vae`, `dwpose`, `S3FD`, etc..
 1. The testdata are collected from internet, which are available for non-commercial research purposes only.
 1. `AIGC`: This project strives to impact the domain of AI-driven video generation positively. Users are granted the freedom to create videos using this tool, but they are expected to comply with local laws and utilize it responsibly. The developers do not assume any responsibility for potential misuse by users.
+#   M u s e T a l k - V e d i o D u b b e r . a i - A s s i g n m e n t - K h u s h i - M i t t a l  
+ 
